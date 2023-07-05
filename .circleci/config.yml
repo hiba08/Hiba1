@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: cimg/ruby:2.6.8
         auth:
-         username: hibakhokar
+         username: hiba08
          password: $DOC_PASS
     steps:
       - checkout
@@ -19,7 +19,7 @@ jobs:
     docker:
       - image: cimg/ruby:3.0.2
         auth:
-          username: hibakhokar
+          username: hiba08
           password: $DOC_PASS#env
     steps:
       - checkout
