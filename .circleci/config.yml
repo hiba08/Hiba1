@@ -26,7 +26,7 @@ jobs:
       -run: echo "A more familiar Hi"
       -attach_workspace:
          at: my_workspace
-        - run: |
+        -run: |
             if [[ $(cat my_workspace/echo-output) == "Trying out workspaces"]]; then
              echo "it worked!";
             else
