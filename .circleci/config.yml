@@ -5,7 +5,7 @@ jobs:
       - image: cimg/ruby:2.6.8
         auth:
          username: hiba08
-         password: Tchri@h1ba
+         password: $DOC_PASS#env 
     steps:
       - checkout
       - run: echo "A first hello"
@@ -15,7 +15,7 @@ jobs:
       - image: cimg/ruby:3.0.2
         auth:
           username: hiba08
-          password: Tchri@h1ba
+          password: $DOC_PASS
     steps:
       - checkout
       - run: echo "A more familiar Hi"
